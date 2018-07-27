@@ -1,41 +1,47 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-    Calculo de Funciones 
+      Gráficos Funciones
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-card-content>
-  Hello World<br />
-
-  <button [navPush]="aboutPage">Go To About</button>
-</ion-card-content>
-<ion-content padding class="about">
-  This is my super awesome about page.
-</ion-content>
 <ion-content padding>
-  
-  <p>
-      <button ion-button color="danger" full>Seno</button>
-    </p>
-    <p>
-      <button ion-button color= "dark" full>Coseno</button>
-    </p>
-  
-    <p>
-      <button ion-button color="danger" full>Tangente</button>
-    </p>
-  
-    <p>
-      <button ion-button color="dark" full>Cotangente</button>
-    </p>
-    <p>
-      <button ion-button color="danger" full>Secante</button>
-    </p>
-    <p>
-      <button ion-button color="dark" full>Cosecante</button>
-    </p>
-    <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
-</ion-content>
 
+  <ion-card>
+    <ion-card-header>
+      Gráficai Seno
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #lineCanvassin></canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      Gráficai Coseno
+    </ion-card-header>
+    <ion-card-content>
+      <canvas #lineCanvascos></canvas>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+      <ion-card-header>
+        Gráficai Cosecante
+      </ion-card-header>
+      <ion-card-content>
+        <canvas #lineCanvasasin></canvas>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+          Gráficai Secante
+        </ion-card-header>
+        <ion-card-content>
+          <canvas #lineCanvasacos></canvas>
+        </ion-card-content>
+      </ion-card>
+
+</ion-content>
