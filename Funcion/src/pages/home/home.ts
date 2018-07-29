@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import {chart} from 'chart.js';
 import { SenoPage } from '../seno/seno';
 import { CosenoPage } from '../coseno/coseno';
 import { CosecantePage } from '../cosecante/cosecante';
