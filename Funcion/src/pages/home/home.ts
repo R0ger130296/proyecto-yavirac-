@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { SenoPage } from '../seno/seno';
-import { CosenoPage } from '../coseno/coseno';
 import { CosecantePage } from '../cosecante/cosecante';
 import { SecantePage } from '../secante/secante';
+import {CosenoPage} from '../coseno/coseno';
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'

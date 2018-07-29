@@ -6,7 +6,7 @@ import { Chart } from 'chart.js';
   selector: 'page-coseno',
   templateUrl: 'coseno.html',
 })
-export class SenoPage implements OnInit {
+export class CosenoPage implements OnInit {
  
   @ViewChild('lineCanvascos') lineCanvascos;
  
